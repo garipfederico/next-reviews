@@ -6,7 +6,7 @@ interface LayoutProps {
 
 export default function RootLayout({children}: LayoutProps) {
   return (
-    <html lan="en">
+    <html lang="en">
       <body>
       <header>
       [Header]
