@@ -16,10 +16,10 @@ export default function RootLayout({ children }: LayoutProps) {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/reviews">Reviews</Link>
+                <Link href="/reviews" prefetch={false} >Reviews</Link>
               </li>
               <li>
-                <Link href="/about">About</Link>
+                <Link href="/about" prefetch={true}>About</Link>
               </li>
             </ul>
           </nav>
