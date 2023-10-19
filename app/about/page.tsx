@@ -1,10 +1,10 @@
-export default function AboutPage(){
-    return (
-        <>
-       <h1>About</h1> 
-       <p>
-        A lot of info about us
-       </p>
-        </>
-    )
-} 
+import Heading from "@/components/Heading";
+
+export default function AboutPage() {
+  return (
+    <>
+      <Heading>About</Heading>
+      <p>A lot of info about us</p>
+    </>
+  );
+}
