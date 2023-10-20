@@ -10,10 +10,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['var(--font-exo2)', 'sans-serif'],
         orbitron: ['var(--font-orbitron)', 'sans-serif'],
       }
     },
-
+    
   },
   plugins: [],
 }
